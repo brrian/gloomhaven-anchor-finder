@@ -1,0 +1,49 @@
+.anchor-f, .anchor-m, .hex {
+  position: absolute;
+  display: inline-block;
+}
+
+.index {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: #fff;
+  transform: translate(-50%, -50%);
+}
+
+.anchor-f, .anchor-m {
+  margin-left: -98px;
+}
+
+.anchor-f {
+  margin-top: -75px;
+  transform-origin: center 75px;
+}
+
+.anchor-m {
+  transform-origin: top;
+}
+
+.hex {
+  margin-left: -98px;
+  margin-top: -113px;
+  opacity: 0.5;
+}
+
+.anchor-f .dot {
+  top: 75px;
+}
+
+.hex .dot {
+  top: calc(50% - .5px);
+}
+
+.dot {
+  position: absolute;
+  top: 0;
+  display: inline-block;
+  width: 1px;
+  height: 1px;
+  background-color: red;
+  left: calc(50% - .5px);
+}
